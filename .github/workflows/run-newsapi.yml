@@ -21,7 +21,7 @@ jobs:
     - name: Install requests
       run: pip install requests
 
-    - name: Run news.py
-      run: python news.py
+    - name: Run script.py
+      run: python script.py
       env:
         NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
